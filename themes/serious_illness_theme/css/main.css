@@ -1,0 +1,117 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.section-schedule .hero-copy {
+display:none;
+}
+
+.section-schedule .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+  margin:0;
+  float:none;
+}
+
+.views-field-title ul {
+  font-weight:normal;
+  font-size:13px;
+  margin-top:5px;
+  padding-left:30px;
+}
+
+.header-block p.course-slogan {
+  font-size:20px;
+}
+
+.region-sidebar-first .block-content p a,
+.field-name-body p a {
+  color:#0000FF;
+}
+
+.views-field-field-sponsor-logo .field-content {
+text-align:center;
+}
+
+.front .hero-copy > span > div > span.hero-title {
+  display:none;
+}
+
+.front .hero-copy .hero-title {
+  line-height:32px;
+  margin-bottom:5px;
+}
+
+.front .view-hero-items {
+  position:relative;
+}
+
+.front .views-field-field-hero-image {
+  width:100%;
+  float:none;
+}
+
+.front .views-field-field-hero-image img {
+  display:block;
+}
+
+.front .region-secondary-content .hero-copy {
+  float:none;
+  position:absolute;
+  top:13%;
+  left:2%;
+  padding:15px;
+  height:185px;
+}
+
+.front .region-secondary-content .hero-copy em {
+  font-weight:600;
+}
+
+.front .region-secondary-content .hero-caption {
+  margin:0;
+}
+
+.front .mobile-image {
+  display:none;
+}
+
+@media(max-width:1035px) {
+  
+  .front .region-secondary-content .hero-copy {
+     top:3%;
+  }
+  
+  .front .hero-copy .hero-title {
+    font-size:19px;
+    line-height:25px;
+  }
+
+  .front .region-secondary-content .hero-caption p {
+    font-size:.9em;
+  }
+}
+
+@media(max-width:800px) {
+
+  .front .views-field-field-hero-image {
+    display:none;
+  }
+
+  .front .region-secondary-content .hero-copy {
+    width:100%;
+    top:0;
+    left:0;
+    position:relative;
+  }
+
+  .front .mobile-image {
+    display:block;
+    width:40%;
+    float:right;
+  }
+  
+  .front .mobile-content-container {
+    float:left;
+    width:60%;
+  }
+}
