@@ -32,7 +32,17 @@ display:none;
 text-align:center;
 }
 
-.front .hero-copy > span > div > span.hero-title {
+.region-secondary-content .hero-title {
+  font-size:24px;
+  line-height:27px;
+  font-weight:bold;
+}
+
+.region-secondary-content .hero-copy .hero-caption a {
+ color:#0000FF;
+}
+/*
+ * .front .hero-copy > span > div > span.hero-title {
   display:none;
 }
 
@@ -114,4 +124,4 @@ text-align:center;
     float:left;
     width:60%;
   }
-}
+}*/
